@@ -31,5 +31,5 @@ console.log(Height);
 console.log(SocialSkill);
 console.log(Weight);
 console.log("Am I manly?" + Male);
-console.log("Am I Asian" + Asian);
+console.log("Am I Asian?" + Asian);
 console.log(spouse);
