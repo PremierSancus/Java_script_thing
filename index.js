@@ -11,8 +11,25 @@ let Age = "16";
 let MadeIn = "Phillippines";
 let Author = "Parents";
 let Height = "5 feet, 8 inches";
-let SocialSkill = "Basic";
+let SocialSkill = null; //undefined,null
 let Weight = "210"
-const agewas = 16
+const Male = true; //security feature
+let Asian = true;
+let spouse ="none"
 
-console.log(name);
+console.log(FirstName);
+console.log(SecondName);
+console.log(MiddleName);
+console.log(LastName);
+console.log(EyeColor);
+console.log(HairColor);
+console.log(BodyAppearance);
+console.log(Age);
+console.log(MadeIn);
+console.log(Author);
+console.log(Height);
+console.log(SocialSkill);
+console.log(Weight);
+console.log("Am I manly?" + Male);
+console.log("Am I Asian" + Asian);
+console.log(spouse);
