@@ -5,7 +5,7 @@ let LastName = "Bacadon";
 // Add a third variable
 let memory = FirstName;
 FirstName = LastName;
-LastName = FirstName;
+LastName = memory;
 //print variables to console
 console.log("Mi primero nombre es " + FirstName);
 console.log("Mi segundo nombre es " + LastName);
