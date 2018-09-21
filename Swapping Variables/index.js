@@ -2,7 +2,9 @@ let FirstName = "Remar";
 let LastName = "Bacadon";
 
 //new code goes here
-
+// Add a third variable
+FirstName = LastName
+LastName = FirstName
 //print variables to console
-console.log("Mi primero nombre es " + LastName);
-console.log("Mi segundo nombre es " + FirstName);
+console.log("Mi primero nombre es " + FirstName);
+console.log("Mi segundo nombre es " + LastName);
