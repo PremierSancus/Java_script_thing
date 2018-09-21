@@ -20,5 +20,5 @@ let RemarBacadon = {
   spouse: "none",
 }
 
-
 console.log(RemarBacadon);
+console.log(RemarBacadon.FirstName);
