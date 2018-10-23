@@ -1,4 +1,4 @@
-console.log('Swapping Variables within Objects');
+console.log('Hello World');
 
 let RemarBacadon = {
   FirstName: "Remar",
@@ -20,14 +20,5 @@ let RemarBacadon = {
   spouse: "none",
 }
 
-let RobotnikKun = {
-  FirstName: "Robotnik",
-  LastName: "Kun",
-}
-
-let memory = RemarBacadon.FirstName;
-RemarBacadon.FirstName = RobotnikKun.FirstName
-RobotnikKun.FirstName = memory
-
-console.log("Remar's first name is " + RemarBacadon.FirstName);
-console.log("Robotnik's first name is " + RobotnikKun.FirstName);
+console.log(RemarBacadon);
+console.log(RemarBacadon.FirstName);
